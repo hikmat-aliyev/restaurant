@@ -1,0 +1,93 @@
+
+
+#chef-img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.meal-images {
+    height: 300px;
+    width: 300px;
+}
+
+body {
+    background-color: #B1FFCA;
+}
+
+.meal-descriptions {
+    width: 250px;
+    height: 250px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+
+    padding: 80px;
+}
+
+#headerDiv {
+    background-color: rgba(24, 128, 24, 0.71);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#headerDiv > div > button {
+    border: inherit;
+    background-color: transparent;
+    margin-left: 40px;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#headerDiv > div > button:hover {
+    transform: scale(1.2);
+}
+
+#headerDiv > h1 {
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.meal-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.097);
+    margin-bottom: 30px;
+    width: 600px;
+    height: 700px;
+}
+
+.meal-div > h5 {
+    font-size: 30px;
+}
+
+footer {
+    justify-self: flex-end;
+}
+
+#contact-div {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.097);
+    width: 600px;
+    height: 700px;
+}
